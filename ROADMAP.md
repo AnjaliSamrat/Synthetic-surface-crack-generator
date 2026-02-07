@@ -77,14 +77,20 @@ venv\Scripts\activate
 
 ### 4. Install Dependencies
 ```bash
-# Install required packages
+# Install required packages (includes TensorFlow with automatic GPU support)
 pip install -r requirements.txt
 
-# If you have an NVIDIA GPU (optional):
-pip install tensorflow-gpu
+# Note: TensorFlow 2.1+ automatically detects and uses GPU if CUDA/cuDNN are installed
+# No need for separate tensorflow-gpu package!
 
-# For CPU-only (free alternative):
-pip install tensorflow
+# GPU Setup (optional, for NVIDIA GPU users):
+# 1. Install NVIDIA drivers: https://www.nvidia.com/drivers
+# 2. Install CUDA Toolkit: https://developer.nvidia.com/cuda-downloads
+# 3. Install cuDNN: https://developer.nvidia.com/cudnn
+# Then TensorFlow will automatically use your GPU
+
+# For CPU-only (if you want to explicitly use CPU):
+# pip install tensorflow-cpu
 ```
 
 ### 5. Install Jupyter Notebook (For running the project)

@@ -7,7 +7,6 @@ Usage: python check_setup.py
 """
 
 import sys
-import subprocess
 
 def check_python_version():
     """Check if Python version is 3.8 or higher"""
