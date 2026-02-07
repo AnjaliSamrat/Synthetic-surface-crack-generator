@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# TensorFlow / Keras
+*.h5
+*.hdf5
+checkpoints/
+logs/
+models/
+
+# Generated synthetic data
+synthetic_cracks/
+output/
+generated_images/
+
+# Dataset cache
+.keras/
+*.zip
+concrete_data_week4/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
