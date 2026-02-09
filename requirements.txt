@@ -1,0 +1,29 @@
+# Core Dependencies for Synthetic Surface Crack Generator
+# Install with: pip install -r requirements.txt
+
+# Deep Learning Framework
+# Note: TensorFlow 2.1+ automatically supports GPU when CUDA/cuDNN are installed
+tensorflow>=2.10.0,<3.0.0
+
+# For CPU-only (lighter, free alternative):
+# tensorflow-cpu>=2.10.0,<3.0.0
+
+# Data Processing
+numpy>=1.21.0,<2.0.0
+
+# Visualization
+matplotlib>=3.5.0,<4.0.0
+
+# Jupyter Notebook Support
+jupyter>=1.0.0
+notebook>=6.4.0
+ipython>=7.30.0
+
+# Image Processing (optional, for advanced usage)
+Pillow>=9.0.0,<11.0.0
+
+# Progress Bars (optional, for better UX)
+tqdm>=4.60.0,<5.0.0
+
+# For converting notebooks to scripts (optional)
+nbconvert>=6.0.0,<8.0.0
